@@ -7,8 +7,9 @@ Started 2026-07-21 (Workshop Session 2).
 
 ## Facts established
 
-- **ORCID:** `0000-0001-7001-2275` — pending confirmation against the paper list.
+- **ORCID:** `0000-0001-7001-2275` — confirmed against the paper list.
   (Note: `0000-0001-6225-7926` is a different Tsambos and must not be used.)
+- **Live at:** https://gtsambos.github.io/MyPublications/
 - **Repo:** `gtsambos/MyPublications`, public, SSH remote.
 - **Data source:** OpenAlex. Reachable from the Harris cluster (HTTP 200).
   Citations are only broken out by year from ~2012 on; older citations still
@@ -18,16 +19,22 @@ Started 2026-07-21 (Workshop Session 2).
   there is no local browser here. Pages is enabled early for this reason.
 - **Python:** `python3` (PyPy 3.9) has `requests` and `openpyxl`. No `pandas`.
 
-## Plan
+## Plan — COMPLETE 2026-07-21
 
 - [x] Create the repo and start this spec
-- [ ] Fetch works from OpenAlex by ORCID; save `papers.json` + a spreadsheet
-- [ ] **Check the list by eye** and drop anything not mine
-- [ ] Interview on design; fold answers into this spec; approve before building
-- [ ] Build `index.html`
-- [ ] Enable GitHub Pages (browser — the API token lacks admin scope)
-- [ ] Refine the design against the live URL
-- [ ] Mark complete; optionally copy to `ClaudeLab/todos/completed/`
+- [x] Fetch works from OpenAlex by ORCID; save `papers.json` + a spreadsheet
+- [x] **Check the list by eye** and drop anything not mine — 33 works to 7
+- [x] Interview on design; fold answers into this spec; approve before building
+- [x] Build `index.html`
+- [x] Enable GitHub Pages (browser — the API token lacks admin scope)
+- [x] Live and confirmed working
+- [x] Package the workflow as a reusable skill (Session 2 stretch goal)
+- [x] GitHub Action to refresh the data on a schedule
+
+**Still open (cosmetic, for whenever):** the *link-ancestors* entry in the
+software section points at the tskit repo, because `link_ancestors` is a tskit
+method rather than a standalone package — so it duplicates the tskit entry
+above it. Drop it or repoint it at `tspop`.
 
 ## The design (from the interview, 2026-07-21)
 

@@ -1,0 +1,51 @@
+name: Refresh publications
+
+# Re-fetch from OpenAlex and rebuild the page, so citation counts stay current
+# without anyone touching the repo.
+on:
+  schedule:
+    # 06:00 UTC every Monday. Citation counts move slowly; weekly is plenty.
+    - cron: "0 6 * * 1"
+  workflow_dispatch:        # ...and a "Run workflow" button for on-demand runs
+
+permissions:
+  contents: write           # needed to push the refreshed data back
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install --quiet requests openpyxl
+
+      - name: Fetch from OpenAlex
+        run: python3 fetch_papers.py 0000-0001-7001-2275
+
+      - name: Rebuild the page
+        run: python3 build_page.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          # Test papers.json ONLY — it is the real signal.
+          #   index.html carries a "last updated <today>" footer, so it differs
+          #     on every run even when nothing changed.
+          #   papers.xlsx is rewritten byte-differently by openpyxl each run.
+          # Including either would commit noise every single week.
+          if git diff --cached --quiet -- papers.json; then
+            echo "No change in papers.json — nothing to commit."
+            git reset
+            exit 0
+          fi
+          git commit -m "Refresh publications data from OpenAlex
+
+          Automated weekly refresh."
+          git push
