@@ -1,0 +1,14 @@
+{
+  "_comment": "Choices made when checking the OpenAlex results by eye on 2026-07-21. Re-running fetch_papers.py applies these again.",
+  "keep_types": ["article"],
+  "excluded_types": {
+    "software": "Zenodo release tags for tskit/msprime, not publications",
+    "preprint": "each duplicates a published article already in the list",
+    "peer-review": "eLife 'Author Response' records, not papers"
+  },
+  "excluded_ids": {
+    "https://openalex.org/W4416254475": "duplicate of W4414487805 (stdpopsim-with-selection); this is the UNC Libraries copy with 0 citations",
+    "https://openalex.org/W4381547216": "duplicate of W4323047994 (stdpopsim catalog, eLife); this copy has 6 citations vs 55",
+    "https://openalex.org/W3105908181": "IGES conference abstract in Genetic Epidemiology, not a paper"
+  }
+}
