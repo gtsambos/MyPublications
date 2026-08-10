@@ -604,9 +604,9 @@
     "type": "preprint",
     "doi": "https://doi.org/10.1101/2025.03.23.644823",
     "url": "https://doi.org/10.1101/2025.03.23.644823",
-    "cited_by_count": 7,
+    "cited_by_count": 8,
     "counts_by_year": {
-      "2026": 2,
+      "2026": 3,
       "2025": 5
     },
     "authors": [
@@ -1312,9 +1312,9 @@
     "type": "article",
     "doi": "https://doi.org/10.1093/genetics/iyab229",
     "url": "https://doi.org/10.1093/genetics/iyab229",
-    "cited_by_count": 525,
+    "cited_by_count": 531,
     "counts_by_year": {
-      "2026": 93,
+      "2026": 99,
       "2025": 160,
       "2024": 141,
       "2023": 93,
@@ -1414,6 +1414,22 @@
     "is_retracted": false
   },
   {
+    "id": "https://openalex.org/W7199511564",
+    "title": "Efficient analysis of genetic ancestry in population-sized datasets",
+    "year": 2021,
+    "date": "2021-01-01",
+    "venue": "Minerva Access (University of Melbourne)",
+    "type": "dissertation",
+    "doi": null,
+    "url": "https://hdl.handle.net/11343/311519",
+    "cited_by_count": 0,
+    "counts_by_year": {},
+    "authors": [
+      "Georgia Tsambos"
+    ],
+    "is_retracted": false
+  },
+  {
     "id": "https://openalex.org/W3105908181",
     "title": "Efficient simulation of ancestry in large datasets",
     "year": 2020,
@@ -1489,9 +1505,9 @@
     "type": "article",
     "doi": "https://doi.org/10.7554/elife.54967",
     "url": "https://doi.org/10.7554/elife.54967",
-    "cited_by_count": 261,
+    "cited_by_count": 263,
     "counts_by_year": {
-      "2026": 28,
+      "2026": 30,
       "2025": 46,
       "2024": 53,
       "2023": 50,
