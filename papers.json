@@ -38,7 +38,7 @@
       "E. Castedo Ellerman",
       "Bing Guo",
       "Sha Joe Zhu",
-      "Murillo Fernando Rodrigues",
+      "Murillo F. Rodrigues",
       "Graham Gower",
       "Gertjan Bisschop",
       "Jerome Kelleher",
@@ -55,15 +55,15 @@
     "type": "article",
     "doi": "https://doi.org/10.1093/molbev/msaf236",
     "url": "https://doi.org/10.1093/molbev/msaf236",
-    "cited_by_count": 7,
+    "cited_by_count": 12,
     "counts_by_year": {
-      "2026": 5,
-      "2025": 2
+      "2026": 9,
+      "2025": 3
     },
     "authors": [
       "Graham Gower",
       "Nathaniel S. Pope",
-      "Murillo Fernando Rodrigues",
+      "Murillo F. Rodrigues",
       "Silas B. Tittes",
       "Linh N Tran",
       "Ornob Alam",
@@ -104,12 +104,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1093/bioadv/vbad163",
     "url": "https://doi.org/10.1093/bioadv/vbad163",
-    "cited_by_count": 15,
+    "cited_by_count": 10,
     "counts_by_year": {
       "2026": 3,
-      "2025": 5,
-      "2024": 5,
-      "2023": 2
+      "2025": 4,
+      "2024": 3
     },
     "authors": [
       "Georgia Tsambos",
@@ -129,11 +128,11 @@
     "type": "article",
     "doi": "https://doi.org/10.1038/s41586-023-06831-w",
     "url": "https://doi.org/10.1038/s41586-023-06831-w",
-    "cited_by_count": 78,
+    "cited_by_count": 74,
     "counts_by_year": {
       "2026": 3,
-      "2025": 57,
-      "2024": 16,
+      "2025": 56,
+      "2024": 13,
       "2023": 2
     },
     "authors": [
@@ -168,12 +167,12 @@
     "type": "article",
     "doi": "https://doi.org/10.7554/elife.84874",
     "url": "https://doi.org/10.7554/elife.84874",
-    "cited_by_count": 55,
+    "cited_by_count": 47,
     "counts_by_year": {
-      "2026": 15,
-      "2025": 15,
-      "2024": 14,
-      "2023": 11
+      "2026": 16,
+      "2025": 13,
+      "2024": 12,
+      "2023": 6
     },
     "authors": [
       "M. Elise Lauterbur",
@@ -198,14 +197,14 @@
       "Alice Pearson",
       "David Peede",
       "Manolo F. Perez",
-      "Murillo Fernando Rodrigues",
+      "Murillo F. Rodrigues",
       "Chris C. R. Smith",
       "Jeffrey P. Spence",
       "Anastasia A. Teterina",
       "Silas B. Tittes",
       "Per Unneberg",
       "Juan Manuel Vázquez",
-      "Ryan Kele Waples",
+      "Ryan K. Waples",
       "Anthony Wilder Wohns",
       "Yan Wong",
       "Franz Baumdicker",
@@ -230,15 +229,13 @@
     "type": "article",
     "doi": "https://doi.org/10.1093/genetics/iyab229",
     "url": "https://doi.org/10.1093/genetics/iyab229",
-    "cited_by_count": 547,
+    "cited_by_count": 443,
     "counts_by_year": {
-      "2026": 115,
-      "2025": 159,
-      "2024": 142,
-      "2023": 92,
-      "2022": 36,
-      "2021": 1,
-      "2020": 1,
+      "2026": 122,
+      "2025": 132,
+      "2024": 100,
+      "2023": 68,
+      "2022": 20,
       "2018": 1
     },
     "authors": [
@@ -262,7 +259,7 @@
       "Dominic Nelson",
       "Nathaniel S. Pope",
       "Consuelo D. Quinto-Cortés",
-      "Murillo Fernando Rodrigues",
+      "Murillo F. Rodrigues",
       "Kumar Saunack",
       "Thibaut Paul Patrick Sellinger",
       "Kevin Thornton",
@@ -286,19 +283,19 @@
     "type": "article",
     "doi": "https://doi.org/10.7554/elife.54967",
     "url": "https://doi.org/10.7554/elife.54967",
-    "cited_by_count": 269,
+    "cited_by_count": 208,
     "counts_by_year": {
-      "2026": 35,
-      "2025": 47,
-      "2024": 53,
-      "2023": 49,
-      "2022": 36,
-      "2021": 29,
-      "2020": 20
+      "2026": 34,
+      "2025": 41,
+      "2024": 33,
+      "2023": 34,
+      "2022": 29,
+      "2021": 22,
+      "2020": 15
     },
     "authors": [
       "Jeffrey R. Adrion",
-      "Christopher B Cole",
+      "Christopher B. Cole",
       "Noah Dukler",
       "Jared Galloway",
       "Ariella L. Gladstein",
