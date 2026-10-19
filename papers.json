@@ -229,13 +229,13 @@
     "type": "article",
     "doi": "https://doi.org/10.1093/genetics/iyab229",
     "url": "https://doi.org/10.1093/genetics/iyab229",
-    "cited_by_count": 443,
+    "cited_by_count": 442,
     "counts_by_year": {
-      "2026": 122,
+      "2026": 123,
       "2025": 132,
       "2024": 100,
-      "2023": 68,
-      "2022": 20,
+      "2023": 67,
+      "2022": 19,
       "2018": 1
     },
     "authors": [
@@ -283,15 +283,15 @@
     "type": "article",
     "doi": "https://doi.org/10.7554/elife.54967",
     "url": "https://doi.org/10.7554/elife.54967",
-    "cited_by_count": 208,
+    "cited_by_count": 206,
     "counts_by_year": {
       "2026": 34,
       "2025": 41,
-      "2024": 33,
+      "2024": 34,
       "2023": 34,
       "2022": 29,
-      "2021": 22,
-      "2020": 15
+      "2021": 20,
+      "2020": 14
     },
     "authors": [
       "Jeffrey R. Adrion",
